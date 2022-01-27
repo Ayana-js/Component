@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main-btn {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.ant-btn {
+    align-items: center;
+    background-color: #e9f4f5;
+    border-color: #e9f4f5;
+    border-radius: 12px;
+    color: #007480;
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 0 32px;
+    letter-spacing: 0.1px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+.ant-btn:hover {
+    text-align: center;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    white-space: nowrap;
+    touch-action: manipulation;
+    background: #dfeef0;
+    border-color: #d4d6d6;
+}
+
+.ant-btn, .ant-btn:active, .ant-btn:focus {
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    color: #1b1d1d;
+}
+
+.ant-btn-link {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    border: 1px solid #dee0e0;
+    background-color: transparent;
+    border-radius: 8px;
+    visibility: visible;
+    cursor: pointer;
+}
+
+.ant-btn-link:hover, .ant-btn-link:focus {
+    border-color: #007480;
+    background-color: transparent;
+}
+
+
+.btn-primary {
+    color: #1b1d1d;
+    background-color: #ffcc00;
+}
+
+.btn-primary:hover {
+    background-color: #f5c400;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.btn-vertical {
+    height: 100px;
+    background-color: #fff;
+    color: #1b1d1d;
+
+    border-radius: 16px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    padding: 16px;
+    text-align: center;
+    white-space: normal;
+    overflow: hidden;
+    line-height: 1.43;
+    margin: 0 12px 24px 12px;
+}
+
+.btn-vertical:hover {
+    color: #007480;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+
